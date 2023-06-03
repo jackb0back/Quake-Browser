@@ -1,0 +1,17 @@
+
+// load the base configuration
+exec https://cdn.jsdelivr.net/gh/jackb0back/Quake-Browser@main/quake/id1/Pak0_non_sounds/default.cfg
+
+// load the last saved configuration
+exec https://cdn.jsdelivr.net/gh/jackb0back/Quake-Browser@main/quake/id1/config.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+// start demos if not allready running a server
+startdemos demo1 demo2 demo3
